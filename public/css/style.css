@@ -1,0 +1,163 @@
+body {
+  font-family: Helvetica;
+  font-style: normal;
+}
+
+p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navbar {
+  background-color: #f1f3ff;
+}
+
+.btn-green {
+  background-color: #5cb85f;
+  color: #ffffff;
+  border-radius: 2px;
+}
+
+.jumbotron {
+  background-color: #f1f3ff;
+  height: 400px;
+  top: 177px;
+}
+.jumbotron h1 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+}
+.car-card {
+  width: 24em;
+  padding: 2em;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: row;
+  gap: 2em;
+  flex-wrap: wrap;
+}
+/* besar dari 960 */
+@media screen and (min-width: 960px) {
+  .img_car {
+    margin-left: 50px;
+    height: 400px;
+  }
+  .cariMobil{
+    margin-top: -50px;
+  }
+}
+
+/* kurang dari 768 */
+@media screen and (max-width: 768px) {
+  .img_car .img_service {
+    margin-top: 50px;
+  }
+  .jumbotron {
+    background-color: #f1f3ff;
+    height: 589px;
+    top: 177px;
+  }
+}
+/* kurang dari 576 */
+@media screen and (max-width: 576px) {
+  .img_car {
+    margin-top: 50px;
+  }
+
+  .jumbotron {
+    background-color: #f1f3ff;
+    height: 589px;
+    top: 177px;
+  }
+  .getting-started {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #0d28a6;
+    height: 436px;
+    border-radius: 13px;
+  }
+  .bg-getting h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .copyright {
+    margin-top: 15px;
+  }
+}
+/* kurang dari 360 */
+@media screen and (max-width: 360px) {
+  .jumbotron {
+    background-color: #f1f3ff;
+    height: 589px;
+    top: 177px;
+  }
+}
+
+section h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.services li {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
+.checklist {
+  background-color: #cfd4ed;
+  border-radius: 50%;
+  color: #0d28a6;
+  padding: 3px;
+}
+
+.bg-getting {
+  background-color: #0d28a6;
+  border-radius: 13px;
+  height: 326px;
+}
+.bg-getting h1 {
+  font-size: 36px;
+  line-height: 54px;
+}
+
+.bg-getting p {
+  color: #f1f3ff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.testi .item {
+  background-color: #f1f3ff;
+  padding: 50px 30px;
+  border-radius: 8px;
+}
+
+.icon_star {
+  color: #f9cc00;
+}
+
+.btn-prev,
+.btn-next {
+  border: 1px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btn-next:hover,
+.btn-prev:hover {
+  background-color: #5cb85f;
+  color: #ffffff;
+}
+.form-control:hover,
+.form-control:focus,
+.form-select:hover,
+.form-select:focus {
+  border: 1.5px solid #5cb85f;
+  box-shadow: none;
+}
